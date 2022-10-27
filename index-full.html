@@ -9,11 +9,158 @@
 	<link rel="shortcut icon" type="image/x-icon" href="Favicon.ico">
 	<!-- libs css-->
 	<link rel="stylesheet" href="css/libs.min.css">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!--<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
 	<!-- main css -->
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<div class="modal-window modal-window--estimate">
+	<div class="modal-window-inner">
+		<img src="img/modal-close.svg" alt="" class="modal-window__close">
+		<img src="img/modal-estimate.png" alt="" class="modal-estimate pc-true">
+		<img src="img/modal-estimate-mob.png" alt="" class="modal-estimate mob-true">
+		<h2 class="modal-window__title">
+			<strong>Закажите расчет</strong> стоимости ремонта
+			своей квартиры<br class="mob-true"> и <strong>получите бесплатную
+			консультацию инженера-технолога</strong> <br>
+			по вашему проекту 
+		</h2>
+		<div class="entry-list entry-list--black">
+			<div class="entry-list-item">
+				<div class="entry-list__icon">
+					<img src="img/engineer-1.png" alt="">
+				</div>
+				<p class="entry-list__text">
+					<strong>+ Детальную смету</strong> на ремонт<br>
+					в 3-х ценовых вариантах<br>
+					с реальными сроками работ
+				</p>
+			</div>
+			<div class="entry-list-item entry-list-item--centered">
+				<div class="entry-list__icon">
+					<img src="img/engineer-2.png" alt="">
+				</div>
+				<p class="entry-list__text">
+					<strong>+ Бесплатный выезд прораба,</strong> который 
+					подскажет нюансы ремонта в вашей квартире 
+				</p>
+			</div>
+			<div class="entry-list-item">
+				<div class="entry-list__icon">
+					<img src="img/engineer-3.png" alt="">
+				</div>
+				<p class="entry-list__text">
+					<strong>+ Дадим экспертное мнение</strong><br>
+					по проекту, даже если вы <br class="mob-true">не будете заключать<br class="mob-true"> с нами договор
+				</p>
+			</div>
+		</div>
+		<div class="section-form" data-aos="fade-up">
+			<div class="section-form-line">
+				<input type="text" class="section-form__input" required placeholder="Ваше имя:">
+				<input type="text" class="section-form__input" required placeholder="+7 (___) ___ - __ - __">
+				<button href="#" class="section-form__btn btn">
+					Рассчитать стоимость ремонта
+				</button>
+			</div>
+			<div class="section-form-politic">
+				<input type="checkbox" checked class="section-form__checkbox checkbox-display" id="section-form__checkbox">
+				<label for="section-form__checkbox">Я даю согласие на обработку персональных данный в соотвествии с Политикой конфиденциальности</label>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal-window modal-window--engineer">
+	<div class="modal-window-inner">
+		<img src="img/modal-close.svg" alt="" class="modal-window__close">
+		<h2 class="modal-window__title">
+			<strong>Вызовите бесплатно</strong> <br>
+			инженера-сметчика <br>
+			на объект и <strong>получите: </strong>
+		</h2>
+		<div class="entry-list entry-list--black">
+			<div class="entry-list-item">
+				<div class="entry-list__icon">
+					<img src="img/engineer-1.png" alt="">
+				</div>
+				<p class="entry-list__text">
+					<strong>+ Детальную смету</strong> на ремонт<br>
+					в 3-х ценовых вариантах<br>
+					с реальными сроками работ
+				</p>
+			</div>
+			<div class="entry-list-item entry-list-item--centered">
+				<div class="entry-list__icon">
+					<img src="img/engineer-2.png" alt="">
+				</div>
+				<p class="entry-list__text">
+					<strong>+ Бесплатный выезд прораба,</strong> который 
+					подскажет нюансы ремонта в вашей квартире 
+				</p>
+			</div>
+			<div class="entry-list-item">
+				<div class="entry-list__icon">
+					<img src="img/engineer-3.png" alt="">
+				</div>
+				<p class="entry-list__text">
+					<strong>+ Дадим экспертное мнение</strong><br>
+					по проекту, даже если вы <br class="mob-true">не будете заключать<br class="mob-true"> с нами договор
+				</p>
+			</div>
+		</div>
+		<div class="director-block director-block--estimate">
+			<div class="director-block-circle circle">
+				<img src="img/estimate-icons.svg" alt="">
+			</div>
+			<div class="director-block__name flex-d">
+				<strong>Бортник Виктор</strong>
+				<span>Опыт работы – 12 лет. </span>
+			</div>
+			<p class="director-block__text">
+				«Виктор может приехать к вам <br>
+				на замер в удобное для вас время»
+			</p>
+		</div>
+		<div class="section-form" data-aos="fade-up">
+			<div class="section-form-line">
+				<input type="text" class="section-form__input" required placeholder="Ваше имя:">
+				<input type="text" class="section-form__input" required placeholder="+7 (___) ___ - __ - __">
+				<button href="#" class="section-form__btn btn">
+					Рассчитать стоимость ремонта
+				</button>
+			</div>
+			<div class="section-form-politic">
+				<input type="checkbox" checked class="section-form__checkbox checkbox-display" id="section-form__checkbox">
+				<label for="section-form__checkbox">Я даю согласие на обработку персональных данный в соотвествии с Политикой конфиденциальности</label>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal-window modal-window--form">
+	<div class="modal-window-inner">
+		<img src="img/modal-close.svg" alt="" class="modal-window__close">
+		<h2 class="modal-window__title">
+			<strong>Получите бесплатную <br>
+			консультацию</strong> инженера <br class="pc-true">
+			сметчика<br class="mob-true"> по телефону
+		</h2>
+		<div class="questions-form" data-aos="fade-in">
+			<input type="text" class="section-form__input" required placeholder="Ваше имя:">
+			<input type="text" class="section-form__input" required placeholder="+7 (___) ___ - __ - __">
+			<button href="#" class="section-form__btn btn">
+				Задать вопрос
+			</button>
+			<div class="section-form-politic">
+				<input type="checkbox" checked class="section-form__checkbox checkbox-display" id="section-form__checkbox">
+				<label for="section-form__checkbox">
+					<p>
+					Я даю согласие на обработку персональных данный в соотвествии<br> с <a href="#">Политикой конфиденциальности</a>
+					</p>
+				</label>
+			</div>
+		</div>
+	</div>
+</div>
 <header class="header">
 	<img src="img/header-bg.jpg" alt="" class="section-bg pc-true">
 	<img src="img/header-bg-mobile.jpg" alt="" class="section-bg mob-true">
@@ -47,7 +194,7 @@
 						на связи пн-вс 9:00–23:00
 					</span>
 				</div>
-				<a href="#" class="nav-btn">
+				<a href="#" class="nav-btn open-form">
 					Перезвоните мне
 				</a>
 			</div>
@@ -100,7 +247,7 @@
 					</p>
 				</div>
 			</div>
-			<a href="#" class="header__btn btn">
+			<a href="#" class="header__btn btn open-estimate">
 				<span>Рассчитать стоимость ремонта</span>
 			</a>
 			<div class="header-director">
@@ -223,7 +370,8 @@
 	</div>
 </section>
 <section class="accuracy black-section">
-	<img src="img/accuracy-bg.jpg" alt="" class="section-bg">
+	<img src="img/accuracy-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/accuracy-bg-mobile.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<div class="title-block">
 			<h2 class="section-title">
@@ -259,8 +407,8 @@
 							<img src="img/check-small.svg" alt="">
 						</span>
 						<p>
-							Замер проводят инженеры-сметчики <br>
-							<strong>с опытом работы от 5 лет</strong>
+							Замер проводят инженеры-сметчики <br> 
+							<strong>с опытом работы<br class="mob-true"> от 5 лет</strong>
 						</p>
 					</li>
 					<li>
@@ -290,7 +438,7 @@
 					</h4>
 					<div class="accuracy-block-gets">
 						<p class="accuracy-block-get">
-							<span>+</span> Точно посчитанную квадратуру работ
+							<span>+</span> Точно посчитанную <br class="mob-true"> квадратуру работ
 						</p>
 						<p class="accuracy-block-get">
 							<span>+</span> Все необходимые скрытые работы
@@ -374,7 +522,7 @@
 					</h4>
 					<div class="accuracy-block-gets">
 						<p class="accuracy-block-get">
-							<span>-</span> Квадратура работ просчитана не точно
+							<span>-</span> Квадратура работ просчитана<br class="mob-true"> не точно
 						</p>
 						<p class="accuracy-block-get">
 							<span>-</span> Часть работ не учтена
@@ -408,7 +556,8 @@
 	</div>
 </section>
 <section class="estimate">
-	<img src="img/estimate-bg.jpg" alt="" class="section-bg">
+	<img src="img/estimate-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/estimate-bg-mobile.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<h2 class="section-title">
 			Если мы посчитаем смету неверно <br>
@@ -421,7 +570,7 @@
 				</div>
 				<p class="header-advantages__text">
 					Замер проводят инженеры-сметчики <br>
-					<strong>с опытом работы от 5 лет</strong>
+					<strong>с опытом работы<br class="mob-true"> от 5 лет</strong>
 				</p>
 			</div>
 			<div class="header-advantages__item flex-a">
@@ -446,7 +595,8 @@
 			</div>
 		</div>
 		<div class="estimate-documnet">
-			<img src="img/document.png" alt="" class="estimate-documnet__img">
+			<img src="img/document.png" alt="" class="estimate-documnet__img pc-true">
+			<img src="img/document-mobile.png" alt="" class="estimate-documnet__img mob-true">
 			<p class="estimate-documnet__text">
 				Наша смета на капитальный <br>
 				ремонт 1к квартиры 38 м² 
@@ -455,8 +605,8 @@
 				Скачать пример сметы.pdf 
 			</a>
 		</div>
-		<a href="#" class="estimate__btn btn">
-			Бесплатно вызвать инженера-сметчика 
+		<a href="#" class="estimate__btn btn open-engineer">
+			<span class="pc-true">Бесплатно</span> <span class="mob-true">В</span><span class="pc-true">в</span>ызвать инженера-сметчика 
 		</a>
 		<div class="director-block director-block--estimate">
 			<div class="director-block-circle circle">
@@ -474,12 +624,13 @@
 	</div>
 </section>
 <section class="term black-section">
-	<img src="img/term-bg.jpg" alt="" class="section-bg">
+	<img src="img/term-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/term-bg-mobile.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<div class="title-block center-align">
 			<h2 class="section-title">
 				Вы получите ремонт, который <br>
-				<strong>прослужит не один десяток лет</strong>
+				<strong>прослужит<br class="mob-true"> не один десяток лет</strong>
 			</h2>
 			<h3 class="section-subtitle">
 				Потому что сделан по нормативам и <strong>с соблюдением всех технологий</strong>
@@ -556,14 +707,24 @@
 		</div>
 	</div>
 </section>
-<section class="works">
+<section class="works container-mob">
 	<div class="container padding-container">
 		<div class="title-block m-30">
 			<h2 class="section-title">
-				Посмотрите наши последние <br>
+				Посмотрите<br class="mob-true"> наши последние <br> <br class="mob-true">
 				<strong>выполненные работы</strong>
 			</h2>
 		</div>
+		<select class="select-slide variant-select mob-true">
+			<option value="14 м2">14 м<sup>2</sup></option>
+			<option value="16 м2">16 м<sup>2</sup></option>
+			<option value="18 м2">18 м<sup>2</sup></option>
+			<option value="32 м2">32 м<sup>2</sup></option>
+			<option value="54 м2">54 м<sup>2</sup></option>
+			<option value="48 м2">48 м<sup>2</sup></option>
+			<option value="62 м2">62 м<sup>2</sup></option>
+			<option value="54 м2">54 м<sup>2</sup></option>
+		</select>
 		<div class="works-size flex-j">
 			<a href="#" class="works-size__item">
 				14 м<sup>2</sup>
@@ -607,6 +768,10 @@
 		</div>
 		<div class="works-block flex-t flex-j">
 			<div class="works-sliders" data-aos="fade-right">
+				<div class="works-arrows mob-true">
+					<a href="#" class="works-arrow works-arrow--prev"><img src="img/works-arrow--left.svg" alt=""></a>
+					<a href="#" class="works-arrow works-arrow--next"><img src="img/works-arrow--right.svg" alt=""></a>
+				</div>
 				<div class="works-slider-big">
 					<div class="works-slider-big__slide photo-bg" style="background-image: url(img/big-slide.jpg);">
 						<div class="works-slider__category">
@@ -628,12 +793,12 @@
 							Косметический ремонт
 						</div>
 					</div>
-					<div class="works-slider-big__slide photo-bg" style="background-image: url(img/big-slide.jpg);">
+					<div class="works-slider-big__slide photo-bg pc-true" style="background-image: url(img/big-slide.jpg);">
 						<div class="works-slider__category">
 							Косметический ремонт
 						</div>
 					</div>
-					<div class="works-slider-big__slide photo-bg" style="background-image: url(img/big-slide.jpg);">
+					<div class="works-slider-big__slide photo-bg pc-true" style="background-image: url(img/big-slide.jpg);">
 						<div class="works-slider__category">
 							Косметический ремонт
 						</div>
@@ -644,18 +809,18 @@
 					<div class="works-slider-nav__slide photo-bg" style="background-image: url(img/big-slide.jpg);"></div>
 					<div class="works-slider-nav__slide photo-bg" style="background-image: url(img/big-slide.jpg);"></div>
 					<div class="works-slider-nav__slide photo-bg" style="background-image: url(img/big-slide.jpg);"></div>
-					<div class="works-slider-nav__slide photo-bg" style="background-image: url(img/big-slide.jpg);"></div>
-					<div class="works-slider-nav__slide photo-bg" style="background-image: url(img/big-slide.jpg);"></div>
-					<div class="works-slider-nav__slide photo-bg" style="background-image: url(img/big-slide.jpg);"></div>
-					<div class="works-slider-nav__slide photo-bg" style="background-image: url(img/big-slide.jpg);"></div>
-					<div class="works-slider-nav__slide photo-bg" style="background-image: url(img/big-slide.jpg);"></div>
-					<div class="works-slider-nav__slide photo-bg" style="background-image: url(img/big-slide.jpg);"></div>
-					<div class="works-slider-nav__slide photo-bg" style="background-image: url(img/big-slide.jpg);"></div>
-					<div class="works-slider-nav__slide photo-bg" style="background-image: url(img/big-slide.jpg);"></div>
+					<div class="works-slider-nav__slide photo-bg pc-true" style="background-image: url(img/big-slide.jpg);"></div>
+					<div class="works-slider-nav__slide photo-bg pc-true" style="background-image: url(img/big-slide.jpg);"></div>
+					<div class="works-slider-nav__slide photo-bg pc-true" style="background-image: url(img/big-slide.jpg);"></div>
+					<div class="works-slider-nav__slide photo-bg pc-true" style="background-image: url(img/big-slide.jpg);"></div>
+					<div class="works-slider-nav__slide photo-bg pc-true" style="background-image: url(img/big-slide.jpg);"></div>
+					<div class="works-slider-nav__slide photo-bg pc-true" style="background-image: url(img/big-slide.jpg);"></div>
+					<div class="works-slider-nav__slide photo-bg pc-true" style="background-image: url(img/big-slide.jpg);"></div>
+					<div class="works-slider-nav__slide photo-bg pc-true" style="background-image: url(img/big-slide.jpg);"></div>
 				</div>
-				<div class="works-video flex-a">
+				<div class="works-video flex-a pc-true">
 					<div class="works-video-frame">
-						
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/rCM3qs1gNHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					<div class="works-video-text">
 						<p>
@@ -712,8 +877,20 @@
 						<strong>Срок:</strong> 41 день
 					</div>
 				</div>
-				
-				<a href="#" class="works-info__btn btn">
+				<div class="works-video flex-a mob-true">
+					<div class="works-video-frame">
+						
+					</div>
+					<div class="works-video-text">
+						<p>
+							Ремонт 1-комнатной квартиры<br> в ЖК Символ.
+							Полный обзор ремонта квартиры. Стоимость
+							работы не выросла в течение ремонта.
+						</p>
+						<a href="#">Смотреть видео-обзор проекта</a>
+					</div>
+				</div>
+				<a href="#" class="works-info__btn btn open-estimate">
 					Рассчитать стоимость ремонта
 				</a>
 			</div>
@@ -721,17 +898,24 @@
 	</div>
 </section>
 <section class="variant black-section">
-	<img src="img/variant-bg.jpg" alt="" class="section-bg">
+	<img src="img/variant-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/variant-bg-mobile.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<div class="title-block m-30 center-align">
 			<h2 class="section-title">
 				Выберите <strong>подходящий для вас вид ремонта</strong>
 			</h2>
 			<h3 class="section-subtitle">
-				А мы посчитаем оптимальные цены при <strong>соблюдении высокого качества работ</strong>
+				А мы посчитаем оптимальные цены при <strong>соблюдении<br class="mob-true"> высокого качества работ</strong>
 			</h3>
 		</div>
-		<div class="works-category flex-j">
+		<select class="select-slide variant-select mob-true">
+			<option value="Косметический">Косметический</option>
+			<option value="Капитальный">Капитальный</option>
+			<option value="Под ключ">Под ключ</option>
+			<option value="Дизайнерский">Дизайнерский</option>
+		</select>
+		<div class="works-category flex-j pc-true">
 			<a href="#" class="works-category__item active">
 				Все
 			</a>
@@ -824,7 +1008,7 @@
 								от 3245 ₽/м<sup>2</sup>
 							</span>
 						</div>
-						<a href="#" class="variant-info__btn btn">
+						<a href="#" class="variant-info__btn btn pc-true open-estimate">
 							Рассчитать стоимость ремонта
 						</a>
 					</div>
@@ -877,33 +1061,39 @@
 				</div>
 			</div>
 		</div>
+		<a href="#" class="variant-info__btn btn mob-true open-estimate">
+			Рассчитать стоимость ремонта
+		</a>
 	</div>
 </section>
-<section class="inspection">
+<section class="inspection container-mob">
 	<div class="container padding-container">
 		<div class="title-block title-block--center">
 			<h2 class="section-title">
-				<strong>Убедитесь в высоком качестве ремонта</strong> <br>
+				<strong>Убедитесь в высоком качестве ремонта</strong><br class="mob-true"> <br>
 				на осмотре наших действующих объектов
 			</h2>
 			<h3 class="section-subtitle">
-				Получите пример договора в удобный мессенджер:
+				Выберите объект в удобном районе
 			</h3>
 		</div>
-		<div class="inspection-map" data-aos="fade-in">
+		<div class="inspection-map pc-true" data-aos="fade-in">
 			<img src="img/map.jpg" alt="">
+		</div>
+		<div class="inspection-map mob-true" data-aos="fade-in">
+			<img src="img/inspection-map-mobile.jpg" alt="">
 		</div>
 	</div>
 </section>
-<section class="entry black-section padding-90">
-	<img src="img/entry-bg.jpg" alt="" class="section-bg">
+<section class="entry black-section padding-90 container-mob">
+	<img src="img/entry-bg.jpg" alt="" class="section-bg pc-true">
 	<div class="container padding-container">
 		<div class="title-block">
 			<h2 class="section-title">
 				Запишитесь на осмотр <strong>любого нашего объекта </strong>
 			</h2>
 			<h3 class="section-subtitle">
-				Получите пример договора в удобный мессенджер:
+				и оцените <strong>качество деталей ремонта</strong> на реальном объекте  
 			</h3>
 		</div>
 		<div class="entry-row">
@@ -914,7 +1104,7 @@
 					</div>
 					<p class="entry-list__text">
 						Вы увидите <strong>результат любого
-						этапа ремонтных работ</strong> <br>
+						этапа ремонтных работ</strong><br class="mob-true"> <br>
 						в режиме реального времени
 					</p>
 				</div>
@@ -925,7 +1115,7 @@
 					<p class="entry-list__text">
 						Потрогаете материалы,
 						<strong>оцените надежность</strong> технических
-						решений и наш подход 
+						решений<br class="mob-true"> и наш подход 
 					</p>
 				</div>
 				<div class="entry-list-item">
@@ -940,7 +1130,7 @@
 				</div>
 			</div>
 			<div class="entry-frame">
-				
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/rCM3qs1gNHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="section-form" data-aos="fade-up">
@@ -959,12 +1149,13 @@
 	</div>
 </section>
 <section class="engineer padding-90">
-	<img src="img/engineer-bg.jpg" alt="" class="section-bg">
+	<img src="img/engineer-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/engineer-mobile-bg.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<div class="title-block">
 			<h2 class="section-title">
 				<strong>Вызовите бесплатно</strong> <br>
-				инженера-сметчика <br>
+				инженера-сметчика <br><br class="mob-true">
 				на объект и <strong>получите: </strong>
 			</h2>
 		</div>
@@ -979,12 +1170,12 @@
 					в договоре
 				</p>
 			</div>
-			<div class="entry-list-item">
+			<div class="entry-list-item entry-list-item--centered">
 				<div class="entry-list__icon">
 					<img src="img/engineer-2.png" alt="">
 				</div>
 				<p class="entry-list__text">
-					<strong>Понедельный план</strong> для каждого <br>
+					<strong>Понедельный план</strong><br class="mob-true"> для каждого <br>
 					этапа работ
 				</p>
 			</div>
@@ -998,6 +1189,9 @@
 					рекомендаций
 				</p>
 			</div>
+		</div>
+		<div class="engineer-viktor mob-true">
+			<img src="img/engineer-viktor.png" alt="">
 		</div>
 		<div class="director-block director-block--estimate">
 			<div class="director-block-circle circle">
@@ -1022,13 +1216,14 @@
 			</div>
 			<div class="section-form-politic">
 				<input type="checkbox" checked class="section-form__checkbox checkbox-display" id="section-form__checkbox">
-				<label for="section-form__checkbox">Я даю согласие на обработку персональных данный в соотвествии с Политикой конфиденциальности</label>
+				<label for="section-form__checkbox">Я даю согласие на обработку персональных данный в соотвествии<br class="mob-true"> с Политикой конфиденциальности</label>
 			</div>
 		</div>
 	</div>
 </section>
 <section class="foundation black-section">
-	<img src="img/foundation-bg.jpg" alt="" class="section-bg">
+	<img src="img/foundation-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/foundation-bg-mobile.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<img src="img/direktor-foundation.png" alt="" class="foundation__direktor" data-aos="fade-in" data-aos-duration="750">
 		<div class="title-block m-30">
@@ -1065,7 +1260,7 @@
 		</a>
 	</div>
 </section>
-<section class="politics gray-bg padding-90">
+<section class="politics gray-bg padding-90 container-mob">
 	<div class="container padding-container">
 		<div class="title-block m-40">
 			<h2 class="section-title">
@@ -1139,7 +1334,7 @@
 		<div class="politics-row flex-j">
 			<div class="politics-block" data-aos="fade-up">
 				<h3 class="politics-block__title">
-					Если клиент договорился с нами на определенную сумму, она не вырастет ни при каких условиях. 
+					Если клиент договорился с нами<br class="mob-true"> на определенную сумму, она не вырастет ни при каких условиях. 
 				</h3>
 				<div class="header-advantages">
 					<div class="header-advantages__item flex-a">
@@ -1186,14 +1381,15 @@
 			</div>
 		</div>
 		<div class="center-align">
-			<a href="#" class="btn politics-btn">
+			<a href="#" class="btn politics-btn open-estimate">
 				Рассчитать стоимость ремонта
 			</a>
 		</div>
 	</div>
 </section>
-<section class="professionalism black-section">
-	<img src="img/professionalism-bg.jpg" alt="" class="section-bg">
+<section class="professionalism black-section container-mob">
+	<img src="img/professionalism-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/professionalism-bg-mobile.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<div class="title-block m-60 center-align">
 			<h2 class="section-title ">
@@ -1244,9 +1440,11 @@
 						</div>
 					</div>
 					<div class="professionalism-block-propmt">
-						Мы решаем возникающие вопросы <br>
-						в кратчайшие сроки. А вы можете <br>
-						следить за ходом ремонта и вносить свои пожелания.
+						<p>
+							Мы решаем возникающие вопросы <br>
+							в кратчайшие сроки. А вы можете <br>
+							следить за ходом ремонта и вносить свои пожелания.
+						</p>
 					</div>
 				</div>
 				<div class="professionalism-block" data-aos="fade-up">
@@ -1288,7 +1486,9 @@
 						</div>
 					</div>
 					<div class="professionalism-block-propmt">
-						Правильная документация исключает ошибки при ремонте
+						<p>
+							Правильная документация исключает ошибки при ремонте
+						</p>
 					</div>
 				</div>
 			</div>
@@ -1301,7 +1501,7 @@
 							</span>
 						</div>
 						<h4 class="professionalism-block__title">
-							Прораб на объекте объясняет 
+							Прораб на объекте объясняет <br class="mob-true">
 							план работ по этапам
 						</h4>
 						<div class="professionalism-block-content">
@@ -1314,9 +1514,11 @@
 						</div>
 					</div>
 					<div class="professionalism-block-propmt">
-						Вы полностью понимаете, как будет <br>
-						проходить ремонт и в какой <br>
-						последовательности
+						<p>
+							Вы полностью понимаете,<br class="mob-true"> как будет <br class="pc-true">
+							проходить ремонт и в какой <br>
+							последовательности
+						</p>
 					</div>
 				</div>
 				<div class="professionalism-block" data-aos="fade-up">
@@ -1327,7 +1529,7 @@
 							</span>
 						</div>
 						<h4 class="professionalism-block__title">
-							Формируем графики <br>
+							Формируем графики <br class="pc-true">
 							работ
 						</h4>
 						<div class="professionalism-block-content">
@@ -1339,8 +1541,10 @@
 						</div>
 					</div>
 					<div class="professionalism-block-propmt">
-						Вы всегда в курсе на каком этапе <br>
-						ремонт и когда приступят к следующему
+						<p>
+							Вы всегда в курсе на каком этапе <br>
+							ремонт и когда приступят к следующему
+						</p>
 					</div>
 				</div>
 			</div>
@@ -1353,7 +1557,7 @@
 							</span>
 						</div>
 						<h4 class="professionalism-block__title">
-							Планируем закупку материалов <br>
+							Планируем закупку <br class="mob-true">материалов <br class="pc-true">
 							и их доставку
 						</h4>
 						<div class="professionalism-block-content">
@@ -1369,7 +1573,9 @@
 						</div>
 					</div>
 					<div class="professionalism-block-propmt">
-						Вы знаете, когда понадобится каждая следующая партия материалов и легко спланируете свой бюджет 
+						<p>
+							Вы знаете, когда понадобится каждая следующая партия материалов и легко спланируете свой бюджет 
+						</p>
 					</div>
 				</div>
 				<div class="professionalism-block-wrapper">
@@ -1392,11 +1598,13 @@
 							</div>
 						</div>
 						<div class="professionalism-block-propmt">
-							Вы уверены что все пойдет по плану <br>
-							и ремонт будет выполнен в срок
+							<p>
+								Вы уверены что все пойдет по плану <br>
+								и ремонт будет выполнен в срок
+							</p>
 						</div>
 					</div>
-					<a href="#" class="professionalism-btn btn">
+					<a href="#" class="professionalism-btn btn open-estimate">
 						Рассчитать стоимость ремонта
 					</a>
 				</div>
@@ -1408,7 +1616,7 @@
 	<div class="container padding-container">
 		<div class="title-block">
 			<h2 class="section-title ">
-				<strong>Вам не придется переживать</strong> из-за неровных <br>
+				<strong>Вам не придется переживать<br class="mob-true"></strong> из-за неровных<br class="mob-true"> <br>
 				полов или скошенных углов
 			</h2>
 		</div>
@@ -1418,17 +1626,20 @@
 				<div class="experience-col experience-content">
 					<div class="experience-wrapper">
 						<h3 class="experience-content__title">
-							Прораб постоянно выкладывает
+							Прораб постоянно выкладывает <br class="mob-true">
 							в группу фотографии работ
 						</h3>
 						<ul class="experience-list">
 							<li>
-								<div class="experience-list__circle">
+								<div class="experience-list__circle pc-true">
 									<img src="img/check-normal.svg" alt="">
 								</div>
-								<p class="experience-list__text">
+								<div class="experience-list__text">
+									<div class="experience-list__circle mob-true">
+										<img src="img/check-normal.svg" alt="">
+									</div>
 									Процесс ремонта фиксируем ежедневно. Так мы видим соблюдение технологии по ходу выполнения ремонта.
-								</p>
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -1442,20 +1653,26 @@
 						</h3>
 						<ul class="experience-list">
 							<li>
-								<div class="experience-list__circle">
+								<div class="experience-list__circle pc-true">
 									<img src="img/check-normal.svg" alt="">
 								</div>
-								<p class="experience-list__text">
+								<div class="experience-list__text">
+									<div class="experience-list__circle mob-true">
+										<img src="img/check-normal.svg" alt="">
+									</div>
 									После того как выполнение этапа достигает 90% готовности, в бухгалтерии запрашиваются документы<br> на эти работы. На объект выезжает технадзор и полностью проверяет качество работ. 
-								</p>
+								</div>
 							</li>
 							<li>
-								<div class="experience-list__circle">
+								<div class="experience-list__circle pc-true">
 									<img src="img/check-normal.svg" alt="">
 								</div>
-								<p class="experience-list__text">
-									Если есть какие-то нарушения, то выдача акта о выполненных работах отменяется до устранения этих нарушений. Технадзор выдает прорабу предписания какие нарушения надо устранить. 
-								</p>
+								<div class="experience-list__text">
+									<div class="experience-list__circle mob-true">
+										<img src="img/check-normal.svg" alt="">
+									</div>
+									Если есть какие-то нарушения,<br class="mob-true"> то выдача акта о выполненных работах отменяется до устранения этих нарушений. Технадзор выдает прорабу предписания какие нарушения надо устранить. 
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -1467,20 +1684,23 @@
 				<div class="experience-col experience-content">
 					<div class="experience-wrapper">
 						<h3 class="experience-content__title">
-							Гарантируем сдачу ремонта даже <br>
+							Гарантируем сдачу ремонта<br class="mob-true"> даже <br>
 							без мелких недочетов и нарушений
 						</h3>
 						<ul class="experience-list">
 							<li>
-								<div class="experience-list__circle">
+								<div class="experience-list__circle pc-true">
 									<img src="img/check-normal.svg" alt="">
 								</div>
-								<p class="experience-list__text">
+								<div class="experience-list__text">
+									<div class="experience-list__circle mob-true">
+										<img src="img/check-normal.svg" alt="">
+									</div>
 									Если все в порядке и нарушений нет, либо <br>
 									они устранены, то технадзор дает разрешение <br>
 									на выдачу акта выполненных работ и назначает <br>
 									встречу с клиентом
-								</p>
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -1495,14 +1715,17 @@
 						</h3>
 						<ul class="experience-list">
 							<li>
-								<div class="experience-list__circle">
+								<div class="experience-list__circle pc-true">
 									<img src="img/check-normal.svg" alt="">
 								</div>
-								<p class="experience-list__text">
+								<div class="experience-list__text">
+									<div class="experience-list__circle mob-true">
+										<img src="img/check-normal.svg" alt="">
+									</div>
 									Построение графиков происходит согласно нормативам, например:
 
 									<strong>перегородки → электрика → стяжки → инженерные коммуникации.</strong>  
-								</p>
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -1513,7 +1736,8 @@
 	</div>
 </section>
 <section class="control black-section padding-90">
-	<img src="img/control-bg.jpg" alt="" class="section-bg">
+	<img src="img/control-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/control-bg-mobile.jpg" alt="" class="section-bg mob-true">
 	<div class="container">
 		<div class="control-row flex-a">
 			<div class="control-photo photo-bg" style="background-image: url('img/control-photo.jpg');" data-aos="fade-in">
@@ -1540,20 +1764,21 @@
 						<span>На каждого прораба даем не более 3-х объектов</span>
 					</div>
 				</div>
-				<a href="#" class="control-btn btn">
+				<a href="#" class="control-btn btn open-estimate">
 					Рассчитать стоимость ремонта
 				</a>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="company">
+<section class="company container-mob">
 	<div class="container padding-container">
 		<div class="title-block m-30">
 			<h2 class="section-title">
-				Не просто меняем трубы, а <strong>подтверждаем <br>
+				Не просто меняем трубы, а <strong>подтверждаем <br> <br class="mob-true">
 				в управляющей компании</strong>, что все работает <br>
 				исправно
+				<img src="img/seal.png" alt="" class="document-seal mob-true">
 			</h2>
 		</div>
 		<div class="company-line flex-a">
@@ -1564,9 +1789,9 @@
 					сетей в квартире</strong> силами управляющей компании
 				</p>
 			</div>
-			<img src="img/seal.png" alt="" class="document-seal">
+			<img src="img/seal.png" alt="" class="document-seal pc-true">
 		</div>
-		<p class="company__text">
+		<p class="company__text pc-true">
 			Делаем акты скрытых работ на такие сети как водоснабжение, отопление,
 			электричество, вентиляция и на работы по звукоизоляции, теплоизоляции,
 			гидроизоляции 
@@ -1605,14 +1830,14 @@
 					<div class="company-block-text">
 						<p>
 							Мы вызываем управляющую компанию, опрессовываем
-							все и доказываем, что система исправна.  
+							все и доказываем,<br class="mob-true"> что система исправна.  
 						</p>
 						<p>
 							После проверки УК предоставляет акты, подтверждающие,
 							что система исправна и квартира остается на гарантии. 
 						</p>
 						<p>
-							Все эти документы мы собираем и даем клиенту. Ваша квартира остается на гарантии и вы не испытываете никаких неудобств во время и после ремонта.
+							Все эти документы мы собираем <br class="mob-true">и даем клиенту. Ваша квартира остается на гарантии и вы не испытываете никаких неудобств<br class="mob-true"> во время и после ремонта.
 						</p>
 					</div>
 				</div>
@@ -1642,11 +1867,13 @@
 	</div>
 </section>
 <section class="tests black-section">
-	<img src="img/tests-bg.jpg" alt="" class="section-bg">
+	<img src="img/tests-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/tests-bg-mob.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<div class="tests-abc" data-aos="fade-in">
 			<div class="tests-relevation">
-				<img src="img/tests-img.png" alt="">
+				<img src="img/tests-img.png" alt="" class="pc-true">
+				<img src="img/tests-img-mob.png" alt="" class="mob-true">
 				<img src="img/tests-line.svg" alt="" class="tests-line">
 				<div class="tests-circle">
 					<strong>СРО-С-260-29012013</strong>
@@ -1670,19 +1897,8 @@
 		</div>
 	</div>
 </section>
-<section class="foreman">
+<section class="foreman container-mob">
 	<div class="container padding-container">
-		<div class="foreman-abc">
-			<div class="foreman-relevation">
-				<img src="img/foreman-team.jpg" alt="">
-				<div class="foreman-quote">
-					«Не принимаю прорабов с сотрудниками,
-					которых набрали недавно. Если по ходу
-					ремонта узнаю, что сотрудники новые,
-					то увольняю прораба со всей бригадой»
-				</div>
-			</div>
-		</div>
 		<div class="title-block m-30">
 			<h2 class="section-title">
 				За ремонт отвечают <br>
@@ -1698,6 +1914,20 @@
 			опытом в ремонте  быстро отсеивает
 			некомпететнтных людей, которые завалят
 			проект:
+		</div>
+		<div class="foreman-abc">
+			<div class="foreman-relevation">
+				<div class="foreman-img-wrapper">
+					<img src="img/foreman-team.jpg" alt="">
+				</div>
+				
+				<div class="foreman-quote">
+					«Не принимаю прорабов с сотрудниками,
+					которых набрали недавно. Если по ходу
+					ремонта узнаю, что сотрудники новые,<br class="mob-true">
+					то увольняю прораба со всей бригадой»
+				</div>
+			</div>
 		</div>
 		<ul class="foreman-list">
 			<li>
@@ -1723,8 +1953,8 @@
 					?
 				</div>
 				<p class="foreman-list__text">
-					Какое оборудование использует в работе,
-					сможет ли оно обеспечить высокое
+					Какое оборудование<br class="mob-true"> использует в работе,
+					сможет<br class="mob-true"> ли оно обеспечить высокое
 					качество работ?
 				</p>
 			</li>
@@ -1733,7 +1963,7 @@
 					?
 				</div>
 				<p class="foreman-list__text">
-					Проверяет сплоченный ли коллектив?
+					Проверяет сплоченный<br class="mob-true"> ли коллектив?
 				</p>
 			</li>
 			<li class="foreman-item--center">
@@ -1752,7 +1982,7 @@
 		<div class="title-block">
 			<h2 class="section-title center-align">
 				<strong>Вашим ремонтом</strong> займутся сотрудники, <br>
-				которые знают, что такое <strong>качественный ремонт</strong> <br>
+				которые знают, что такое <strong>качественный ремонт</strong><br class="mob-true"> <br>
 				и поддерживают ценности компании.
 			</h2>
 		</div>
@@ -1816,7 +2046,7 @@
 		</div>
 	</div>
 </section>
-<section class="stages gray-bg">
+<section class="stages gray-bg container-mob">
 	<div class="container padding-container">
 		<div class="stages-row flex-j flex-t">
 			<div class="professionalism-block" data-aos="fade-up">
@@ -1890,28 +2120,30 @@
 			</div>
 		</div>
 		<div class="center-align">
-			<a href="#" class="btn">
+			<a href="#" class="btn open-estimate">
 				Рассчитать стоимость ремонта
 			</a>
 		</div>
 	</div>
 </section>
-<section class="brands black-section">
-	<img src="img/brands-bg.jpg" alt="" class="section-bg">
+<section class="brands black-section container-mob">
+	<img src="img/brands-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/brands-bg-mobile.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<div class="title-block center-align m-60">
 			<h2 class="section-title">
 				Качественные материалы помогут <strong>сохранить <br>
-				результаты ремонта на долгие годы</strong>
+				результаты ремонта <br class="mob-true">на долгие годы</strong>
 			</h2>
 			<h3 class="section-subtitle">
-				В работе используем <strong>материалы проверенных брендов</strong>, чтобы исключить <br>
+				В работе используем <strong>материалы проверенных брендов</strong>, чтобы исключить <br class="pc-true">
 				возникновение дефектов во время и после ремонта 
 			</h3>
 		</div>
 		<div class="brands-block">
-			<img src="img/brands-1.png" alt="" class="brands-block-1">
-			<img src="img/brands-2.png" alt="">
+			<img src="img/brands-1.png" alt="" class="brands-block-1 pc-true">
+			<img src="img/brands-2.png" alt="" class="pc-true">
+			<img src="img/brands-mobile.png" alt="" class="mob-true">
 		</div>
 		<div class="brands-row flex-t flex-j">
 			<div class="brands-item flex-a" data-aos="fade-up" data-aos-duration="500">
@@ -1945,8 +2177,8 @@
 				</p>
 			</div>
 		</div>
-		<div class="center-align">
-			<a href="#" class="btn">Рассчитать стоимость ремонта</a>
+		<div class="center-align pc-true">
+			<a href="#" class="btn open-estimate">Рассчитать стоимость ремонта</a>
 		</div>
 	</div>
 </section>
@@ -1983,7 +2215,7 @@
 				</div>
 				<div class="complaints-block-content">
 					<h4 class="complaints-block__title">
-						Защищаем <br>
+						Защищаем <br> <br class="mob-true">
 						оборудование клиента
 					</h4>
 					<p class="complaints-block__text">
@@ -2052,16 +2284,17 @@
 		</div>
 	</div>
 </section>
-<section class="entrance black-section">
-	<img src="img/entrance-bg.jpg" alt="" class="section-bg">
+<section class="entrance black-section container-mob">
+	<img src="img/entrance-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/entrance-bg-mobile.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<div class="title-block center-align">
 			<h2 class="section-title ">
-				После ремонта в квартиру <br>
+				После ремонта<br class="mob-true"> в квартиру <br>
 				<strong>можно сразу въезжать</strong>
 			</h2>
 			<h3 class="section-subtitle">
-				Окна, двери, мебель и т.д. мы уже установили
+				Окна, двери, мебель и т.д. <br class="mob-true"> мы уже установили
 			</h3>
 		</div>
 		<div class="entrance-row flex-t flex-j">
@@ -2127,7 +2360,9 @@
 	<div class="container padding-container">
 		<div class="obligation-abc">
 			<div class="obligation-relevation">
-				<img src="img/obligation-mocap.png" alt="">
+				<img src="img/obligation-mocap.png" alt="" class="pc-true">
+				<img src="img/obligation-mocap-mobile.png" alt="" class="mob-true">
+				<img src="img/line-mobile.png" alt="" class="obligation-line mob-true">
 				<div class="obligation-circle obligation-circle--1">
 					Подрядчик уплачивает <br>
 					заказчику <br>
@@ -2172,12 +2407,12 @@
 				<p class="entry-list__text">
 					<strong>Гарантия 3 года</strong> распространяется <strong>на качество материалов
 					и выполненные работы.</strong> В случае наступления гарантийного
-					случая мы все ремонтируем, меняем за свой счет.
+					случая мы все ремонтируем, меняем <br class="mob-true">за свой счет.
 				</p>
 			</div>
 		</div>
 		<h2 class="section-title">
-			Все условия <br>
+			Все условия <br class="pc-true">
 			<strong>максимально прозрачны!</strong>
 		</h2>
 		<h3 class="section-subtitle">
@@ -2203,8 +2438,9 @@
 		</div>
 	</div>
 </section>
-<section class="reviews black-section">
-	<img src="img/reviews-bg.jpg" alt="" class="section-bg">
+<section class="reviews black-section container-mob">
+	<img src="img/reviews-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/reviews-bg-mobile.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<div class="title-block center-align">
 			<h2 class="section-title">
@@ -2213,7 +2449,7 @@
 			</h2>
 		</div>
 		<div class="reviews-top flex-c">
-			<div class="reviews-top-block">
+			<div class="reviews-top-block pc-true">
 				<img src="img/reviews-small.png" alt="" class="reviews-top__small">
 				<div class="reviews-top__circle flex-c">
 					<img src="img/check-litle.svg" alt="">
@@ -2228,13 +2464,13 @@
 			<a href="#" data-aos="fade-up" data-aos-duration="400">
 				<img src="img/reviews-slide-1.png" alt="">
 			</a>
-			<a href="#" data-aos="fade-up" data-aos-duration="600">
+			<a href="#" data-aos="fade-up" data-aos-duration="600" class="pc-true">
 				<img src="img/reviews-slide-2.png" alt="">
 			</a>
-			<a href="#" data-aos="fade-up" data-aos-duration="800">
+			<a href="#" data-aos="fade-up" data-aos-duration="800" class="pc-true">
 				<img src="img/reviews-slide-3.png" alt="">
 			</a>
-			<a href="#" data-aos="fade-up" data-aos-duration="1000">
+			<a href="#" data-aos="fade-up" data-aos-duration="1000" class="pc-true">
 				<img src="img/reviews-slide-4.png" alt="">
 			</a>
 		</div>
@@ -2288,7 +2524,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="reviews-block" data-aos="fade-up">
+			<div class="reviews-block pc-true" data-aos="fade-up">
 				<div class="reviews-block-photo photo-bg">
 					<a href="#" class="reviews-block__play flex-c">
 						<img src="img/play.svg" alt="">
@@ -2337,7 +2573,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="reviews-block" data-aos="fade-up">
+			<div class="reviews-block pc-true" data-aos="fade-up">
 				<div class="reviews-block-photo photo-bg">
 					<a href="#" class="reviews-block__play flex-c">
 						<img src="img/play.svg" alt="">
@@ -2387,7 +2623,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="center-align ">
+		<div class="center-align pc-true">
 			<a href="#" class="btn reviews-btn">
 				Посмотреть больше отзывов
 			</a>
@@ -2395,14 +2631,15 @@
 	</div>
 </section>
 <section class="questions">
-	<img src="img/questions-bg.jpg" alt="" class="section-bg">
+	<img src="img/questions-bg.jpg" alt="" class="section-bg pc-true">
+	<img src="img/questions-bg-mobile.jpg" alt="" class="section-bg mob-true">
 	<div class="container padding-container">
 		<div class="title-block m-40">
 			<h2 class="section-title">
 				Остались <strong>вопросы?</strong>
 			</h2>
 			<h3 class="section-subtitle">
-				Получите <strong>бесплатную консультацию</strong> <br>
+				Получите <strong>бесплатную<br class="mob-true"> консультацию</strong> <br class="pc-true">
 				инженера-сметчика по телефону
 			</h3>
 		</div>
@@ -2427,7 +2664,7 @@
 	<div class="container padding-container">
 		<div class="contacts-row flex-t">
 			<div class="contacts-map" data-aos="fade-in">
-				<img src="img/contact-map.jpg" alt="">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A65493d28ffb8a585bf11bcd8c23aa1d7925b3b746a35656d9455fd9dec14ef3f&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
 			</div>
 			<div class="contacts-block">
 				<div class="title-block m-30">
@@ -2470,7 +2707,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#" class="contacts-btn btn">
+				<a href="#" class="contacts-btn btn open-form">
 					Запланировать встречу в офисе
 				</a>
 			</div>
@@ -2479,7 +2716,7 @@
 </section>
 <!-- libs js -->
 <script src="js/libs.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
 <script src="js/common.js"></script>
 </body>
 
